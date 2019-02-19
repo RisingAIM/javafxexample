@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="333.0" prefWidth="506.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.courtfx2.FXMLController">
+   <children>
+      <TableView id="table" fx:id="table" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="303.0" prefWidth="506.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="53.0" text="№" />
+          <TableColumn fx:id="name" prefWidth="345.0" text="Ник" />
+          
+        </columns>
+      </TableView>
+      <Button layoutX="440.0" layoutY="307.0" mnemonicParsing="false" onAction="#add" text="Button" AnchorPane.bottomAnchor="1.0" AnchorPane.rightAnchor="14.0" />
+   </children>
+</AnchorPane>

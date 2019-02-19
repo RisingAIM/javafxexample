@@ -27,9 +27,18 @@ public class CreatedialogController implements Initializable {
     private boolean state;
     
     @FXML private TextField nickname;
+
+    public boolean isState() {
+        return state;
+    }
     
     public String getText(){
         return nickname.getText();
+    }
+    
+    public void reset(){
+        state = false;
+        nickname.setText("");
     }
     
     @FXML private void create(ActionEvent ev){
